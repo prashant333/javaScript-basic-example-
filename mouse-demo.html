@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div onmouseover="myMouse(this)" onmouseout="myMouse1(this)" style="background-color:#D94A38;width:120px;height:20px;padding:40px;">Hover over me</div>
+    
+    <script>
+    function myMouse(params){
+        params.innerHTML="Hello There"
+    }
+    function myMouse1(params) {
+        params.innerHTML="Hover over me"
+    }
+    </script>
+</body>
+</html>
